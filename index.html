@@ -6,7 +6,6 @@
     <title>My Captcha</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' href='style.css'>
-    <script src='main.js'></script>
 </head>
 <body>
     <div class="wrapper">
@@ -14,16 +13,16 @@
         <div class="captcha-area">
             <div class="captcha-img">
                 <img src="assets/unnamed.png" alt="">
-                <span class="captcha">T e s T e</span>
+                <span class="captcha"></span>
             </div>
             <button class="refresh-btn"><img class="refresh-img" src="assets/svgexport-4.svg"></button>
         </div>
         <form action="#" class="input-area">
-            <input type="text" placeholder="Coloque o Captcha aqui" required>
+            <input class="input" type="text" placeholder="Coloque o Captcha aqui" required>
             <button class="check-btn">Checar</button>
         </form>
-        <div class="status-txt">Captcha não correspondente com a imagem, tente novamente</div>
+        <div class="check-status"></div>
     </div>
-    
+    <script src='captcha.js'></script>
 </body>
 </html>

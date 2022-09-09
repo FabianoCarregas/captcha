@@ -142,9 +142,9 @@ body{
     pointer-events: auto;
 }
 
-.wrapper .status-txt{
+.wrapper .check-status{
     display: none;
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
     margin: 20px 0 -5px 0;
 }
